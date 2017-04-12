@@ -1,0 +1,45 @@
+.header {
+	display: flex;
+	display: -webkit-flex;
+	background: #fffabe;
+	width: 100%;
+	height: 72px;
+}
+
+.logo-ctr {
+	display: inline-block;
+	width: 13%;
+	margin: 20px 15px;
+}
+
+.logo-ctr img {
+	width: 100%;
+}
+
+.navbar {
+	color: #515151;
+	right: 0;
+	width: 80%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin: 15px 5%;
+}
+
+.navbar ul li a {
+	color: #515151;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.navbar ul li a:hover {
+	color: #d42551;
+}

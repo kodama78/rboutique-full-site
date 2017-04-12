@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.side-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 25px 35px 50px;
+}
+
+.main-text {
+  padding: 35px 50px 35px 25px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.main-text h1 {
+  padding: 25px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .side-image {
+    display: none;
+  }
+
+  .main-text {
+    padding-right: 25px;
+  }
+}
+
+
+
+
