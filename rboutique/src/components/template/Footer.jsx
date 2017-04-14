@@ -1,8 +1,8 @@
 import React from 'react';
-import Mail from '../assets/images/mail.png';
-import Phone from '../assets/images/phone.png';
-import Facebook from '../assets/images/facebook.png';
-import Twitter from '../assets/images/twitter.png';
+import Mail from '../../assets/images/mail.png';
+import Phone from '../../assets/images/phone.png';
+import Facebook from '../../assets/images/facebook.png';
+import Twitter from '../../assets/images/twitter.png';
 
 const Footer = props => (
     <div className="footer">

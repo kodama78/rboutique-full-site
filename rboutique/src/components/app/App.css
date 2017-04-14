@@ -1,6 +1,6 @@
-@import './components/header.css';
-@import './components/main.css';
-@import './components/footer.css';
-@import './components/hero.css';
-@import './components/hoursContainer.css';
-@import './components/hours.css';
+@import '../template/header.css';
+@import '../welcome/main.css';
+@import '../template/footer.css';
+@import '../template/hero.css';
+@import '../welcome/hoursContainer.css';
+@import '../welcome/hours.css';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hours from './Hours';
-import { data } from '../data';
+import { data } from '../../data';
 
 class HoursContainer extends Component {
   hoursList = () => {
