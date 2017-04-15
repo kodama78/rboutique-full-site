@@ -1,5 +1,5 @@
 import React from 'react';
-import Macarons from '../assets/images/macarons-image.png';
+import Macarons from '../../assets/images/macarons-image.png';
 
 const Main = props => (
   <div className="main">

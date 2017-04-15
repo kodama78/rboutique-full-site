@@ -1,27 +1,19 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import {
-    Hero,
-    Header,
-    Main,
-    HoursContainer,
-    Footer } from './components';
-
-import heroImage from './assets/images/welcome-image.png';
+import Template from '../template';
+import Routes from '../../routes';
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Header />
-                <Hero img={ heroImage } />
-                <Main />
-                <HoursContainer />
-                <Footer/>
-            </div>
+            <BrowserRouter>
+                <Template>
+                    <Routes />
+                </Template>
+            </BrowserRouter>
         );
     };
-
 }
 
 export default App;

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Hero from '../template/Hero';
-import HeroImg from '../../assets/images/our-macarons-image.png';
+import HeroImg from '../../assets/images/gifts-parties-image.png';
 
-class OurMacarons extends Component {
+class GiftsParties extends Component {
     render() {
         return (
             <div>
                 <Hero img={ HeroImg } />
-                <h1>Our Macarons</h1>
+                <h1>Gifts & Parties</h1>
             </div>
         );
     };
 }
 
-export default OurMacarons;
+export default GiftsParties;
