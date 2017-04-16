@@ -1,0 +1,18 @@
+.flavors {
+    background: transparent url('../../assets/images/our-macarons-background.png') no-repeat 50% 50%;
+    background-size: 100%;
+    padding-bottom: 50px;
+}
+
+.flavors ul {
+    padding-bottom: 25px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .flavors {
+        background: none;
+    }
+}

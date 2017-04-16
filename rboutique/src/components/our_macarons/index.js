@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import Hero from '../template/Hero';
+import Main from './Main';
 import HeroImg from '../../assets/images/our-macarons-image.png';
 
 class OurMacarons extends Component {
-    render() {
+    render () {
         return (
             <div>
                 <Hero img={ HeroImg } />
-                <h1>Our Macarons</h1>
+                <Main />
             </div>
-        );
+        )
     };
 }
 

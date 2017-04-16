@@ -13,7 +13,7 @@ import TiffanyBlue from './assets/images/tiffany-blue.png';
 import Caramel from './assets/images/caramel.png';
 import Almond from './assets/images/almond.png';
 
-export const data = [
+export const hoursData = [
   {
     weekday: "Monday",
     startTime: "15:00",
@@ -112,4 +112,21 @@ export const data = [
     },
     backgroundColor: "#c39005"
   }
+]
+
+export const flavors = [
+    'caribbean chocolate',
+    'coconut',
+    'colombian coffee',
+    'green tea',
+    'lemon',
+    'madagascar vanilla',
+    'passion fruit',
+    'rose',
+    'raspberry',
+    'tiffany blue',
+    'sicilian pistachio',
+    'sweet wedding almond',
+    'violet cassis',
+    'salted caramel'
 ]

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom';
 import {
     Welcome,
     OurMacarons,
@@ -9,11 +9,13 @@ import {
 
 const Routes = () => (
     <div>
-        <Redirect exact from='/' to='/welcome'/>
-        <Route exact path="/welcome" component={ Welcome } />
-        <Route path="/our_macarons" component={ OurMacarons } />
-        <Route path="/gifts_parties" component={ GiftsParties } />
-        <Route path="/contact" component={ Contact } />
+        <Switch>
+            <Redirect exact from='/' to='/welcome'/>
+            <Route exact path="/welcome" component={ Welcome } />
+            <Route path="/our_macarons" component={ OurMacarons } />
+            <Route path="/gifts_parties" component={ GiftsParties } />
+            <Route path="/contact" component={ Contact } />
+        </Switch>
     </div>
 )
 
