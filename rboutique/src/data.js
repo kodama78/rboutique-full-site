@@ -130,3 +130,26 @@ export const flavors = [
     'violet cassis',
     'salted caramel'
 ]
+
+export const giftBoxes = [
+    {
+        includes: 'gift box of 6 macarons in raspberrywhite',
+        price: 10
+    },
+    {
+        includes: 'gift box of 12 macarons in white, pistachio, or violet',
+        price: 20
+    },
+    {
+        includes: 'gift box of 24 macarons in violet',
+        price: 40
+    },
+    {
+        includes: 'gift box of 36 macarons in silver',
+        price: 60
+    },
+    {
+        includes: `gift box ${String.fromCharCode( 224 )} la ronde of 60 macarons in violet or silver`,
+        price: 120
+    }
+]
