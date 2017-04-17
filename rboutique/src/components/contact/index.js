@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../template/Hero';
+import Main from './Main';
 import HeroImg from '../../assets/images/contact-image.png';
 
 class Contact extends Component {
@@ -7,7 +8,7 @@ class Contact extends Component {
         return (
             <div>
                 <Hero img={ HeroImg } />
-                <h1>Contact</h1>
+                <Main />
             </div>
         );
     };
