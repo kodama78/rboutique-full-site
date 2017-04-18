@@ -1,45 +1,73 @@
 .header {
-	display: flex;
-	display: -webkit-flex;
-	background: #fffabe;
-	width: 100%;
-	height: 72px;
+    display: flex;
+    flex-flow: row nowrap;
+    background: #fffabe;
+    height: 72px;
 }
 
 .logo-ctr {
-	display: inline-block;
-	width: 13%;
-	margin: 20px 15px;
-}
-
-.logo-ctr img {
-	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
 }
 
 .navbar {
-	color: #515151;
-	right: 0;
-	width: 80%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    color: #515151;
 }
 
 .navbar ul {
-	list-style-type: none;
-	display: inline-block;
-	width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 .navbar ul li {
-	display: inline-block;
-	margin: 15px 5%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar ul li a {
-	color: #515151;
-	text-decoration: none;
-	text-transform: uppercase;
-
+    color: #515151;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.navbar ul li a:hover {
-	color: #d42551;
+.navbar ul li:hover a {
+    color: #d42551;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .header {
+        flex-flow: row wrap;
+    }
+
+    .logo-ctr {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .navbar {
+        margin-top: -5px;
+        padding: 0;
+    }
+
+    .navbar ul li a {
+        font-size: 10px;
+    }
 }

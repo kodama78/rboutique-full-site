@@ -1,12 +1,13 @@
 import React from 'react';
 import Macarons from '../../assets/images/macarons-image.png';
+import './main.css';
 
 const Main = props => (
-  <div className="main">
+  <div className="main welcome">
     <div className="side-image">
       <img src={ Macarons } alt="macarons"/>
     </div>
-    <div className="main-text">
+    <div>
       <h1>Welcome to MBoutique!</h1>
 
       <p>We're a home-based baking business that specializes in the making of French macarons, a gluten-free
