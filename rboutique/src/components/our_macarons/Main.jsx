@@ -1,8 +1,9 @@
 import React from 'react';
+import './main.css';
 import { flavors } from '../../data';
 
 const Main = props => (
-    <div className="main-text flavors">
+    <div className="main flavors">
         <h1>Our macarons are freshly made by hand</h1>
 
         <p>The vivid hues of our unique macarons reflect the natural flavors and essences that

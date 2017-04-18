@@ -1,9 +1,10 @@
 import React from 'react';
 import Form from './Form';
 import Macarons from '../../assets/images/macarons-image.png';
+import './main.css';
 
 const Main = props => (
-    <div className="main-text contact">
+    <div className="main contact">
         <div>
             <h1>Visit us!</h1>
             <p>

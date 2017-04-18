@@ -1,7 +1,8 @@
-.gifts_parties{
-    background: transparent url('../../assets/images/gifts-parties-background.png') no-repeat 50% 50%;
+.gifts_parties {
+    background: transparent url('../../assets/images/gifts-parties-background.png') no-repeat 50% 100%;
     background-size: 100%;
-    padding-bottom: 75px;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .gifts_parties p:nth-of-type(1) a {
@@ -11,7 +12,7 @@
 }
 
 .gifts_parties p:nth-of-type(3) {
-    width: 55%;
+    width: 60%;
 }
 
 @media only screen

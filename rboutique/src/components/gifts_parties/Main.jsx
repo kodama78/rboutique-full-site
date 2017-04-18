@@ -1,8 +1,9 @@
 import React from 'react';
+import './main.css';
 import { giftBoxes } from '../../data';
 
 const Main = props => (
-    <div className="main-text gifts_parties">
+    <div className="main gifts_parties">
         <h1>Let's eat macarons!</h1>
 
         <p>We make it easy to share la passion du macaron with your friends, family and colleagues.
