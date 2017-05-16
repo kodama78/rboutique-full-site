@@ -11,6 +11,8 @@ const Header = () => {
           </div>
           <div className="navbar">
               <ul>
+                  {/*Link updates the URL to the provided path name, which then
+                  triggers the route associated with that path name*/}
                   <li><Link to="/welcome">Welcome</Link></li>
                   <li><Link to="/our_macarons">Our Macarons</Link></li>
                   <li><Link to="/gifts_parties">Gifts & Parties</Link></li>
