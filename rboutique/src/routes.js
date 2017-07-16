@@ -4,7 +4,9 @@ import {
     Welcome,
     OurMacarons,
     GiftsParties,
-    Contact
+    Contact,
+    Shop,
+    Checkout
 } from './components';
 
 const Routes = () => (
@@ -17,6 +19,8 @@ const Routes = () => (
             <Route path="/our_macarons" component={ OurMacarons } />
             <Route path="/gifts_parties" component={ GiftsParties } />
             <Route path="/contact" component={ Contact } />
+            <Route path="/shop" component={ Shop } />
+            <Route path="/checkout" component={ Checkout } />
         </Switch>
     </div>
 )

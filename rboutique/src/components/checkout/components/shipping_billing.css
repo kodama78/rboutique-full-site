@@ -1,0 +1,80 @@
+.shipping-billing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.shipping-billing > div {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipping-billing .name,
+.shipping-billing .address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.shipping-billing .name input {
+    width: 200px;
+    height: 40px;
+}
+
+.shipping-billing .address input:nth-child(1) {
+    width: 150px;
+}
+
+.shipping-billing .address input:nth-child(2) {
+    width: 50px;
+}
+
+.shipping-billing .address input:nth-child(3) {
+    width: 100px;
+}
+
+.shipping-billing input {
+    width: 436px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    margin-bottom: 15px;
+}
+
+.shipping-billing input[type="tel"] {
+    width: 150px;
+    align-self: flex-start;
+}
+
+.shipping-billing input[type="number"]::-webkit-outer-spin-button,
+.shipping-billing input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.checkout-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #00cc00;
+}
+
+.checkout-links #summary-link {
+    position: absolute;
+    right: 0;
+}
+
+.checkout-links #confirmation-link {
+    position: absolute;
+    left: 0;
+}
+
