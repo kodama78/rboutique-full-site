@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Counter from '../../recycle/counter';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-//import { cart } from './actions_shop';
+//import { cart } from '../../shop/actions_shop';
 
 import './order_summary.css';
 
@@ -76,15 +76,17 @@ class OrderSummary extends Component {
 }
 
 const mapStateToProps = state => {
+    const cart = state.shop.cart;
+    console.log("Cart: " + cart);
     return {
         cart: state.shop.cart
     }
 }
 
-//const mapDispatchToProps = dispatch => {
-    // return bindActionCreators({
-    //     cart
-    // }, dispatch);
-//}
+// const mapDispatchToProps = dispatch => {
+//     return bindActionCreators({
+//         cart
+//     }, dispatch);
+// }
 
 export default connect(mapStateToProps, null)(OrderSummary);

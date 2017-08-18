@@ -63,9 +63,10 @@ class Shop extends Component {
         const order = Object.keys(this.state.macarons).map(item => {
             console.log(item);
             return {
-                [item]: this.state.macarons[item.name],
-                count: this.state.macarons[item.name].count,
-                price: this.state.macarons[item.name].price
+                [item]: {
+                    count: this.state.macarons[item].count,
+                    price: this.state.macarons[item].price
+                }
             }
         })
         console.log('Macaron Array: ', order);
